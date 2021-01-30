@@ -1,0 +1,36 @@
+<template>
+  <div class="window-height content-style">
+    <h3>Filipino Christmas</h3>
+    <div class="video-video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/RLLpRLPhacs"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      />
+    </div>
+
+    <h5 class="video-analysis">Analysis</h5>
+    <span>
+      We can see here that Mikey Bustos is speaking with the Filipino accent
+      since he is proud of our accent and this accent represents our country. In
+      this video he compares how different the Christmas celebration is in
+      Canada and in the Philippines. This video shows how the filipino people
+      are frugal with the Parol having its original plastic and a plastic
+      Christmas tree. Moreover, this video shows our traditions where Filipinos
+      look forward to the simbang gabi, how we have noche buena, and
+      grandparents giving money to their grandchildren. This video shows our
+      culture when celebrating christmas. This shows us that we shouldn’t be
+      ashamed of our culture as we are one of a kind.
+    </span>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Video3",
+  components: {},
+};
+</script>

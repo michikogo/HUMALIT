@@ -8,6 +8,14 @@
   padding: 0px !important;
 }
 
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.navbar-brand {
+  margin-right: 0px !important;
+}
+
 a {
   color: black !important;
   text-decoration: none; /* no underline */
@@ -32,9 +40,12 @@ a:hover {
   margin-bottom: 25px;
 }
 
-.video-analysis,
+.video-analysis {
+  padding-top: 30px;
+}
 .video-video {
   padding-top: 30px;
+  text-align-last: center;
 }
 
 .h6-top-padding {

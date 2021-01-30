@@ -8,7 +8,7 @@ import SupportingText from "../views/SupportingText.vue";
 import Video1 from "../views/Video1.vue";
 import Video2 from "../views/Video2.vue";
 import Video3 from "../views/Video3.vue";
-
+import Members from "../views/Members.vue";
 Vue.use(VueRouter);
 
 const routes = [
@@ -41,6 +41,11 @@ const routes = [
     path: "/video3",
     name: "Video3",
     component: Video3,
+  },
+  {
+    path: "/members",
+    name: "Members",
+    component: Members,
   },
 ];
 

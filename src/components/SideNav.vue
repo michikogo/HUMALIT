@@ -5,9 +5,11 @@
         <!-- <b-col cols="4">
           <b-img right :src="content.image" style="height:30px;" />
         </b-col> -->
-        <b-col>
-          <b-nav-item>{{ content.name }}</b-nav-item>
-        </b-col>
+        <router-link to="/video1">
+          <b-col>
+            <b-nav-item>{{ content.name }}</b-nav-item>
+          </b-col>
+        </router-link>
       </b-row>
     </b-nav>
   </div>

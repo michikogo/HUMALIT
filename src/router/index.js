@@ -1,6 +1,5 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import { publicPath } from "../../vue.config";
 
 import Home from "../views/Home.vue";
 import MainText from "../views/MainText.vue";

@@ -3,7 +3,9 @@
     <!-- Header -->
     <b-navbar class="app-header">
       <!-- Home Page -->
-      <b-navbar-brand href="/"> HUMALIT GROUP 3 - YY1</b-navbar-brand>
+      <router-link to="/">
+        <b-navbar-brand> HUMALIT GROUP 3 - YY1</b-navbar-brand>
+      </router-link>
     </b-navbar>
 
     <!-- Content -->
@@ -20,7 +22,10 @@
       </b-row>
     </b-container>
     <!-- Footer -->
-    <div class="app-footer">HUMALIT GROUP 3 - YY1</div>
+    <div class="app-footer">
+      <div>HUMALIT GROUP 3 - YY1</div>
+      <span>Bergantinos, Go, Kasala, Navarro, See, Tablante, Tiu</span>
+    </div>
   </div>
 </template>
 
@@ -47,8 +52,15 @@ export default {
   margin-top: 30px;
   padding: 15px;
   text-align: center;
-  font-weight: bold;
-  font-size: large;
+  /* font-weight: bold;
+  font-size: large; */
+  /* display: inline-block;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap; */
 }
 
 #app {

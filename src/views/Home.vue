@@ -12,20 +12,20 @@
           class="home-image"
         ></b-img>
         <!-- Context -->
-        <p>
+        <span>
           DASALAN AT TOCSOHAN <br />
           by Marcelo H. Del Pilar <br />
           Ang Tanda <br />
           Ang tanda nang cara-i-cruz ang ipangadya mo sa amin ....
           <span class="home-readMore">Read More</span>
-        </p>
+        </span>
       </router-link>
     </b-row>
 
     <b-row class="content-style">
       <router-link to="/supportingtext">
         <h3>Culture: Being Forgotten & The Main RRL</h3>
-        <p>
+        <span>
           The text discusses how most Filipino’s of today’s generation have
           forgotten their own culture and have changed due to technological
           advancements and colonial mentality of the Philippine Society. It
@@ -36,7 +36,7 @@
           that it uses the word mimicking specifically, and mimicking would
           entail copying every single aspect. As the Philippines have been ....
           <span class="home-readMore">Read More</span>
-        </p>
+        </span>
       </router-link>
     </b-row>
 
@@ -134,6 +134,7 @@ export default {
 
 .home-video {
   text-align: center;
+  padding-bottom: 15px;
 }
 
 .home-readMore {

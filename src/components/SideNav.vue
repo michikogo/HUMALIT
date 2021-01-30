@@ -1,12 +1,19 @@
 <template>
-  <div class="navBar-div">
-    <h5>Traditions and Subversions</h5>
-    <b-row v-for="content in contents" :key="content.key">
-      <router-link :to="content.link">
-        <p class="sideNav-name">{{ content.name }}</p>
-      </router-link>
+  <b-container class="navBar-div">
+    <span class="sideNav-title">Traditions and Subversions</span>
+    <b-row
+      style="paddingTop:15px"
+      v-for="content in contents"
+      :key="content.key"
+    >
+      <b-col cols="2" style="align-self: center;">🌟</b-col>
+      <b-col>
+        <router-link :to="content.link">
+          <span class="sideNav-name">{{ content.name }}</span>
+        </router-link>
+      </b-col>
     </b-row>
-  </div>
+  </b-container>
 </template>
 
 <script>
@@ -38,9 +45,7 @@ export default {
 
 <style scoped>
 .navBar-div {
-  padding: 0px 15px;
-  padding-top: 15px;
-  padding-bottom: 5px;
+  padding: 15px;
   border-radius: 5px;
   border-style: solid;
   border-width: thin;
@@ -48,9 +53,16 @@ export default {
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
   /* background-color: lightgrey; */
 }
+.sideNav-title {
+  font-size: 12px;
+  font-weight: bold;
+}
 .sideNav-name {
   color: #b8b08d;
   font-weight: bold;
+}
+.sideNav-bar {
+  border-bottom: 1px solid #b8b08d;
 }
 .sideNav-name:hover {
   color: #aca174;

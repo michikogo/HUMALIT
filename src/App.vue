@@ -6,12 +6,14 @@
         <!-- Home Page -->
         <b-col cols="6">
           <router-link to="/">
-            <b-navbar-brand> HUMALIT GROUP 3 - YY1</b-navbar-brand>
+            <b-navbar-brand class="app-title">
+              HUMALIT GROUP 3 - YY1
+            </b-navbar-brand>
           </router-link>
         </b-col>
         <b-col style="text-align: right;">
           <router-link to="/members">
-            <b-navbar-brand align="right"> Members</b-navbar-brand>
+            <b-navbar-brand class="app-title"> Members</b-navbar-brand>
           </router-link>
         </b-col>
       </b-row>
@@ -21,40 +23,45 @@
     <b-container class="bv-example-row">
       <b-row>
         <!-- Side Nav -->
-        <!-- <b-col cols="3" class="app-sideNavbar">
+        <b-col cols="3" class="app-sideNavbar">
           <SideNav />
-        </b-col> -->
+        </b-col>
         <!-- Pages -->
-        <b-col class="app-sideNavbar">
+        <b-col>
           <router-view />
         </b-col>
       </b-row>
     </b-container>
     <!-- Footer -->
     <div class="app-footer">
-      <div>HUMALIT GROUP 3 - YY1</div>
-      <span>Bergantinos, Go, Kasala, Navarro, See, Tablante, Tiu</span>
+      <div class="app-title">HUMALIT GROUP 3 - YY1</div>
+      <span class="app-title">
+        Bergantinos, Go, Kasala, Navarro, See, Tablante, Tiu
+      </span>
     </div>
   </div>
 </template>
 
 <script>
-// import SideNav from "./components/SideNav";
+import SideNav from "./components/SideNav";
 export default {
   name: "App",
   components: {
-    // SideNav,
+    SideNav,
   },
 };
 </script>
 
 <style>
+.app-title {
+  color: white !important;
+}
 .app-header {
   background-color: #b8b08d;
   margin-bottom: 30px;
 }
 .app-sideNavbar {
-  padding: 0px 125px !important;
+  padding-right: 25px !important;
 }
 .app-footer {
   background-color: #b8b08d;

@@ -45,8 +45,8 @@
         <h3>Filipino National Heroes Rap</h3>
         <div class="home-video">
           <iframe
-            width="560"
-            height="315"
+            width="100%"
+            height="349"
             src="https://www.youtube.com/embed/zLN9k27O7zI"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -66,8 +66,8 @@
         <h3>Proud of My Accent</h3>
         <div class="home-video">
           <iframe
-            width="560"
-            height="315"
+            width="100%"
+            height="349"
             src="https://www.youtube.com/embed/SaV4sFw5mAw"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -87,8 +87,8 @@
         <h3>Filipino Christmas</h3>
         <div class="home-video">
           <iframe
-            width="560"
-            height="315"
+            width="100%"
+            height="349"
             src="https://www.youtube.com/embed/RLLpRLPhacs"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -125,6 +125,7 @@ export default {
   object-position: 100% 100;
   width: fit-content;
   height: 250px;
+  padding-bottom: 15px;
 }
 
 .home-link {

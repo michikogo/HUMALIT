@@ -6,6 +6,75 @@
     <!-- Image -->
     <b-img :src="image" fluid alt="Responsive image" class="home-image"></b-img>
 
+    <!-- Text -->
+    <h5 class="video-analysis">DASALAN AT TOCSOHAN</h5>
+    <span>Marcelo H. Del Pilar</span>
+
+    <h6 class="h6-top-padding">Ang Tanda</h6>
+    <span>
+      Ang tanda nang cara-i-cruz ang ipangadya mo sa amin Panginoon naming
+      Fraile sa manga bangkay naming, sa ngalan nang Salapi at nang Maputing
+      binte, at nang Espiritung Bugaw. Siya naua.
+    </span>
+
+    <h6 class="h6-top-padding">Pagsisisi</h6>
+    <span
+      >Panginoon kong Fraile, Dios na hindi totoo at labis nang pagkatuo gumaga
+      at sumalacay sa akin: pinagsisihan kong masakit sa tanang loobang dilang
+      pag-asa lo sa iyo, ikaw nga ang berdugo ko. Panginoon ko at kaauay ko na
+      inihihibic kong lalo sa lahat, nagtitica akong matibay na matibay na dina
+      muli-muling mabubuyo sa iyo: at lalayuan ko na at pangingilagan ang
+      balanang makababacla nang loob ko sa pag-asa sa iyo, macalilibat nang
+      dating sakit nang manga bulsa ko, at nagtitica naman acong maglalathala
+      nang dilang pagcadaya ko umaasa akong babambuhin ka rin, alang-alang sa
+      mahal na panyion at pangangalakal mo nang Cruz, sa pagulol sa akin. Siya
+      naua.;
+    </span>
+
+    <h6 class="h6-top-padding">Ang Amain Namin</h6>
+    <span
+      >Amain naming sumasaconvento ka, sumpain ang ngalan mo, malayo sa amin ang
+      kasakiman mo, quitlin ang liig mo ditto sa lupa para nang sa langit.
+      Saulan mo cami ngayon nang aming kaning iyonh inaraoarao at patauanin mo
+      kami sa iyong pagungal para nang pag papataua mo kung kami nacucualtahan;
+      at huag mo kaming ipahintulot sa iyong manunukso at iadya mo kami sa
+      masama mong dila.
+    </span>
+
+    <h6 class="h6-top-padding">Ang Aba Guinoong Baria</h6>
+    <span>
+      Aba guinoong Baria nakapupuno ka nang alcancia ang Fraile'I sumasainyo
+      bukod ka niyang pinagpala't pina higuit sa lahat, pinagpala naman ang
+      kaban mong mapasok. Santa Baria Ina nand Deretsos, ipanalangin mo kaming
+      huag anitan ngayon at cami ipapatay. Siya naua.
+    </span>
+
+    <h6 class="h6-top-padding">Ang Aba Po Santa Baria</h6>
+    <span>
+      Aba po Santa Bariang Hari, inagao nang Fraile, ikao ang kabuhayan at
+      katamisan. Aba bunga nang aming pauis, ikaw ang pinagpaguran naming
+      pinapanaw na tauong Anac ni Eva, ikaw nga ang ipinagbubuntonh hininga
+      naming sa aming pagtangis dito sa bayang pinakahapishapis. Ay aba
+      pinakahanaphanap naming para sa aming manga anak, ilingon mo sa aming ang
+      cara- i cruz mo man lamang at saka bago matapos ang pagpanaw mo sa amin ay
+      iparinig mo sa amin ang iyong kalasing Santa Baria ina nang deretsos,
+      malakas at maalam, matunog na guinto kami ipanalangin mong huag magpatuloy
+      sa aming ang manga banta nang Fraile. Amen. Ang Manga Utos Nang Fraile Ang
+      manga utos nang Fraile ay sampo: Ang nauna: Sambahin mo ang Fraile na lalo
+      sa lahat. Ang ikalaua: Huag kang mag papahamak manuba nang ngalang
+      deretsos. Ang ikatlo: Mangilin ka sa Fraile lingo man at fiesta. Ang
+      ikapat: Isangla mo ang catauan mo sa pagpapalibing sa ama't ina, Ang
+      ikalima: Huag kang mamamatay kung uala pang salaping pang libing. Ang
+      ikanim: Huag kang makiapid sa kanyang asaua. Ang ikapito: Huag kang
+      makinakaw. Anh ikaualo: Huag mo silang pagbibintangan, kahit ka
+      masinungalingan. Ang ikasiyam: Huag mong ipagkait ang iyong asaua. Ang
+      ikapulo: Huag mong itangui ang iyong ari. Itong sampong utos nang Fraile'I
+      dalaua ang kinaoouian. Ang isa: Sambahin mo ang Fraile lalo sa lahat. Ang
+      ikalaua: Ihayin mo naman sa kaniya ang puri mo't kayamanan. Siya naua. Ang
+      manga kabohongang asal, ang pangala'i tontogales ay tatlo. Igalang mo
+      Katakutan mo Ang Fraile At Pag Manuhan mo..
+    </span>
+
     <!-- Context - Introduction -->
     <h5 class="video-analysis">Introduction to the Text</h5>
     <span>

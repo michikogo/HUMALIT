@@ -16,7 +16,9 @@
           DASALAN AT TOCSOHAN <br />
           by Marcelo H. Del Pilar <br />
           Ang Tanda <br />
-          Ang tanda nang cara-i-cruz ang ipangadya mo sa amin ....
+          Ang tanda nang cara-i-cruz ang ipangadya mo sa amin Panginoon naming
+          Fraile sa manga bangkay naming, sa ngalan nang Salapi at nang Maputing
+          binte, at nang Espiritung.....
           <span class="home-readMore">Read More</span>
         </span>
       </router-link>
@@ -34,7 +36,11 @@
           asking the reader to stop mimicking other cultures and instead rebirth
           our own culture as Filipinos. What is interesting about this topic is
           that it uses the word mimicking specifically, and mimicking would
-          entail copying every single aspect. As the Philippines have been ....
+          entail copying every single aspect. As the Philippines have been
+          colonized by many countries, some leaving more of an impact than
+          others, it’s impossible to say that we must abolish all “borrowed”
+          culture norms from the other countries. This is because our
+          culture....
           <span class="home-readMore">Read More</span>
         </span>
       </router-link>
@@ -56,7 +62,11 @@
         <span>
           This video focuses on the national heroes of the Philippines. This
           shows our history when we first got colonized by the Spaniards and how
-          we are ... <span class="home-readMore">Read More</span>
+          we are different from our colonizers. This makes us aware of our own
+          national heroes and how we have them to thank for making the
+          philippines its own country, not a province of spain or a state of the
+          united states of america. We are our own people and we are unique.
+          This is the lesson that Mikey Bustos wanted us to learn.
         </span>
       </router-link>
     </b-row>
@@ -75,9 +85,16 @@
           />
         </div>
         <span>
-          The video of Mikey Bustos focuses on the Filipino Accent. At the start
+          he video of Mikey Bustos focuses on the Filipino Accent. At the start
           of the video he stated that he can speak like an American, Australian,
-          ... <span class="home-readMore">Read More</span>
+          and Italian however, he wanted to use his own accent which is the
+          filipino accent. Throughout the video he sings with a filipino accent
+          which shows how this accent is different from other accents. The
+          lyrics teach the listeners how to have a filipino accent for example v
+          and b must sound the same. In the description box Mikey Bustos wrote
+          “This is a song I wrote about accents. I'm super proud of my Filipino
+          Accent.”. This video is not....
+          <span class="home-readMore">Read More</span>
         </span>
       </router-link>
     </b-row>
@@ -98,7 +115,13 @@
         <span>
           We can see here that Mikey Bustos is speaking with the Filipino accent
           since he is proud of our accent and this accent represents our
-          country. In this video ...
+          country. In this video he compares how different the Christmas
+          celebration is in Canada and in the Philippines. This video shows how
+          the filipino people are frugal with the Parol having its original
+          plastic and a plastic Christmas tree. Moreover, this video shows our
+          traditions where Filipinos look forward to the simbang gabi, how we
+          have noche buena, and grandparents giving money to their
+          grandchildren. This video.....
           <span class="home-readMore">Read More</span>
         </span>
       </router-link>

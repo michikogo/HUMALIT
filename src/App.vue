@@ -7,7 +7,7 @@
         <b-col cols="6">
           <router-link to="/">
             <b-navbar-brand class="app-title">
-              HUMALIT GROUP 3 - YY1
+              🏠 HUMALIT GROUP 3 - YY1
             </b-navbar-brand>
           </router-link>
         </b-col>

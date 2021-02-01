@@ -43,7 +43,7 @@ export default {
         {
           id: 1,
           link: "/maintext",
-          title: "Dasalan and Tocsohan",
+          title: "Dasalan and Tocsohan (Main Text)",
           typeAsset: "image",
           asset: mainTextImage,
           desc: `DASALAN AT TOCSOHAN <br />
@@ -56,7 +56,7 @@ export default {
         {
           id: 2,
           link: "/supportingtext",
-          title: "Culture: Being Forgotten & The Main RRL",
+          title: "Culture: Being Forgotten (Supporting Text)",
           typeAsset: "N/A",
           asset: "https://www.youtube.com/embed/zLN9k27O7zI",
           desc: `The text discusses how most Filipino’s of today’s generation have

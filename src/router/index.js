@@ -57,8 +57,16 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  scrollBehavior() {
-    return { x: 0, y: 0 };
+  scrollBehavior(to) {
+    // go to the section
+    if (to.hash) {
+      return {
+        selector: to.hash,
+      };
+    } else {
+      // when routed go to the start
+      return { x: 0, y: 0 };
+    }
   },
   routes,
 });

@@ -2,7 +2,8 @@
   <div class="window-height">
     <b-row>
       <b-col cols="3">
-        <SideNav />
+        <!-- passing parent to child -->
+        <SideNav :contents="contents" />
       </b-col>
       <b-col class="main-content">
         <b-row class="content-style">
@@ -18,8 +19,10 @@
           ></b-img>
 
           <!-- Text -->
-          <h5 class="video-analysis">DASALAN AT TOCSOHAN</h5>
-          <span>Marcelo H. Del Pilar</span>
+          <h5 class="video-analysis" id="text" style="width: 100%">
+            DASALAN AT TOCSOHAN
+          </h5>
+          <span style="width: 100%">Marcelo H. Del Pilar</span>
 
           <h6 class="h6-top-padding">Ang Tanda</h6>
           <span>
@@ -89,10 +92,8 @@
             Manuhan mo..
           </span>
 
-          <hr />
           <!-- Context - Introduction -->
-          <h5 class="video-analysis">Analysis</h5>
-          <h5 class="video-analysis">Introduction to the Text</h5>
+          <h5 class="video-analysis" id="analysis">Introduction to the Text</h5>
           <span>
             Satire is very common, especially in the Philippines where it is
             used as a means to cope, bring about awareness about social issues
@@ -114,7 +115,6 @@
             contrast to their teachings (Salcedo, 2014).
           </span>
           <br />
-          <br />
           <span>
             However, this text was not simply used by del Pilar only; many other
             versions of it exist to mock politicians (Salcedo, 2014) such as
@@ -123,7 +123,10 @@
           </span>
 
           <!-- Context - Analysis -->
-          <h5 class="video-analysis">Analysis of the Text</h5>
+          <h5 class="video-analysis" style="width: 100%">
+            Analysis of the Text
+          </h5>
+
           <h6 class="h6-top-padding">Ang Tanda</h6>
           <span>
             This section of the text speaks to how the friars abused their power
@@ -191,7 +194,7 @@
           </span>
 
           <!-- Context - Reference -->
-          <h5 class="video-analysis">Reference</h5>
+          <h5 class="video-analysis" id="reference">Reference</h5>
           <b-link
             href="https://www.dlsu.edu.ph/wp-content/uploads/pdf/conferences/arts-congress-proceedings/2019/FP-01.pdf"
             class="main-link"
@@ -219,6 +222,11 @@ export default {
   data() {
     return {
       image: text1Image,
+      contents: [
+        { key: 1, name: "Text", section: "/maintext#text" },
+        { key: 2, name: "Analysis", section: "/maintext#analysis" },
+        { key: 3, name: "Reference", section: "/maintext#reference" },
+      ],
     };
   },
 };

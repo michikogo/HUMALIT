@@ -1,14 +1,13 @@
 <template>
   <b-container class="navBar-div">
-    <span class="sideNav-title">Traditions and Subversions</span>
+    <span class="sideNav-title">Dasalan and Tocsohan</span>
     <b-row
       style="paddingTop:15px"
       v-for="content in contents"
       :key="content.key"
     >
-      <b-col cols="2" style="align-self: center;">🌟</b-col>
       <b-col>
-        <router-link :to="content.link">
+        <router-link :to="content.section" @click="section(content.section)">
           <span class="sideNav-name">{{ content.name }}</span>
         </router-link>
       </b-col>
@@ -18,27 +17,9 @@
 
 <script>
 export default {
-  name: "SideNav",
-  components: {},
-  data() {
-    return {
-      contents: [
-        { key: 1, name: "Dasalan and Tocsohan", link: "/maintext" },
-        {
-          key: 2,
-          name: "Culture: Being Forgotten? & The Main RRL",
-          link: "/supportingtext",
-        },
-        { key: 3, name: "Filipino National Heroes Rap", link: "/video1" },
-        { key: 4, name: "Proud of My Accent", link: "/video2" },
-        { key: 5, name: "Filipino Christmas", link: "/video3" },
-      ],
-    };
-  },
-  methods: {
-    print() {
-      alert("clicked");
-    },
+  name: "MainSideNav",
+  props: {
+    contents: Object,
   },
 };
 </script>
@@ -52,9 +33,12 @@ export default {
   border-color: #c4c4c4;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.6);
   /* background-color: lightgrey; */
+
+  /* position: fixed;
+  width: 35vh; */
 }
 .sideNav-title {
-  font-size: 12px;
+  /* font-size: 12px; */
   font-weight: bold;
 }
 .sideNav-name {
@@ -66,5 +50,8 @@ export default {
 }
 .sideNav-name:hover {
   color: #aca174;
+}
+.sideNav-name:active {
+  font-size: bold;
 }
 </style>

@@ -23,42 +23,55 @@
     <b-container class="bv-example-row">
       <b-row>
         <!-- Side Nav -->
-        <b-col cols="3" class="app-sideNavbar">
+        <!-- <b-col cols="3" class="app-sideNavbar">
           <SideNav />
-        </b-col>
+        </b-col> -->
         <!-- Pages -->
         <b-col>
           <router-view />
         </b-col>
       </b-row>
     </b-container>
+
     <!-- Footer -->
     <div class="app-footer">
-      <span v-for="(title, index) in titles" :key="index"> {{ title }} • </span>
       <div class="app-title">HUMALIT GROUP 3 - YY1</div>
-      <span v-for="(member, index) in members" :key="index" class="app-title">
-        {{ member }}
-        <span v-if="index !== members.length - 1"> | </span>
-      </span>
+      <div>
+        <span v-for="(member, index) in members" :key="index" class="app-title">
+          {{ member }}
+          <span v-if="index !== members.length - 1"> | </span>
+        </span>
+      </div>
+      <div>
+        <span v-for="(title, index) in titles" :key="index">
+          <router-link :to="title.link">
+            <span class="app-text">{{ title.title }}</span>
+          </router-link>
+          <span v-if="index !== titles.length - 1"> • </span>
+        </span>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import SideNav from "./components/SideNav";
+// import SideNav from "./components/SideNav";
 export default {
   name: "App",
-  components: {
-    SideNav,
-  },
+  // components: {
+  //   SideNav,
+  // },
   data() {
     return {
       titles: [
-        "Dasalan and Tocsohan",
-        "Culture: Being Forgotten? & The Main RRL",
-        "Filipino National Heroes Rap",
-        "Proud of My Accent",
-        "Filipino Christmas",
+        { title: "Dasalan and Tocsohan", link: "/maintext" },
+        {
+          title: "Culture: Being Forgotten? & The Main RRL",
+          link: "/supportingtext",
+        },
+        { title: "Filipino National Heroes Rap", link: "/video1" },
+        { title: "Proud of My Accent", link: "/video2" },
+        { title: "Filipino Christmas", link: "/video3" },
       ],
       members: [
         "Bergantinos",
@@ -99,5 +112,12 @@ export default {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap; */
+}
+.app-text {
+  color: white;
+}
+.app-text:hover {
+  color: wheat;
+  font-weight: bold;
 }
 </style>

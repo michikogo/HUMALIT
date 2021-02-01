@@ -263,14 +263,14 @@ export default {
       contents: [
         {
           key: 1,
-          name: "CULTURE: Being Forgotten?",
+          name: "CULTURE: Being Forgotten? (Text)",
           section: "/supportingtext#text1",
         },
         { key: 2, name: "Analysis", section: "/supportingtext#analysis1" },
         {
           key: 3,
           name:
-            "How can PH narratives of antiquity be made relevant to contemporary PH life, culture and concerns?",
+            "How can PH narratives of antiquity be made relevant to contemporary PH life, culture and concerns? (Text)",
           section: "/supportingtext#text2",
         },
         { key: 4, name: "Analysis", section: "/supportingtext#analysis2" },

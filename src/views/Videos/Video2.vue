@@ -18,8 +18,8 @@
                 allowfullscreen
               />
             </div>
-            <h5 class="video-analysis">Analysis</h5>
-            <span id="analysis">
+            <h5 class="video-analysis" id="analysis">Analysis</h5>
+            <span>
               The video of
               <router-link to="/mikey-bustos">
                 <span class="author-color">Mikey Bustos</span>
@@ -30,10 +30,7 @@
               accent. Throughout the video he sings with a filipino accent which
               shows how this accent is different from other accents. The lyrics
               teach the listeners how to have a filipino accent for example v
-              and b must sound the same. In the description box
-              <router-link to="/mikey-bustos">
-                <span class="author-color">Mikey Bustos</span>
-              </router-link>
+              and b must sound the same. In the description box Mikey Bustos
               wrote “This is a song I wrote about accents. I'm super proud of my
               Filipino Accent.”. This video is not to make fun of the accent but
               to show that we should be proud of it. This video not only

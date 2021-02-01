@@ -18,8 +18,8 @@
                 allowfullscreen
               />
             </div>
-            <h5 class="video-analysis">Analysis</h5>
-            <span id="analysis">
+            <h5 class="video-analysis" id="analysis">Analysis</h5>
+            <span>
               This video focuses on the national heroes of the Philippines. This
               shows our history when we first got colonized by the Spaniards and
               how we are different from our colonizers. This makes us aware of

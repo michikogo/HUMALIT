@@ -23,7 +23,11 @@
             <h5 class="video-analysis" id="text" style="width: 100%">
               DASALAN AT TOCSOHAN
             </h5>
-            <span style="width: 100%">Marcelo H. Del Pilar</span>
+            <span>
+              <router-link to="/marcelo-del-pilar">
+                <span class="author-color">Marcelo H. Del Pilar</span>
+              </router-link>
+            </span>
 
             <h6 class="h6-top-padding">Ang Tanda</h6>
             <span>
@@ -105,7 +109,7 @@
               simply pop into existence in recent times! In fact, this
               particular text by Marcelo H. del Pilar was written during the
               colonial occupation of the Spaniards here in the Philippines.
-              According to Galang-Parena (n.d.): “Remembering is always
+              According to Galang-Parena (2019.): “Remembering is always
               accompanied by conflict as people have unique ways of retaining an
               event and what it means. When memory becomes part of the public
               sphere, it is inevitably steeped in controversy. The publicness of
@@ -118,9 +122,7 @@
               where it brings to light the wrongdoings of the Spanish friars,
               which frequently show paradoxical behavior in contrast to their
               teachings (Salcedo, 2014).
-            </span>
-            <br />
-            <span>
+              <br /><br />
               However, this text was not simply used by del Pilar only; many
               other versions of it exist to mock politicians (Salcedo, 2014)
               such as former President Gloria Arroyo and even former President
@@ -180,23 +182,26 @@
             <br />
             <span>
               ….every deed, sacrifice and giving no longer goes to God and the
-              Spanish Friars seize it.
+              Spanish Friars seize it. (Salcedo, 2014)
             </span>
 
             <!-- Context - Analysis -->
             <h5 class="video-analysis">Relevance to Mikey Bustos</h5>
             <span>
               Marcelo H. del Pilar wrote the Dasalan and Tocsohan because of his
-              experiences with the friars. To an extent, Mikey Bustos acts as a
-              FOIL instead; rather than using his medium (Youtube videos, in
-              this case) to satirically mock the corruption or destruction that
-              has been done to the Philippines, he tries to use his skits to
-              educate or to produce humorous effect linked Philippine culture,
-              as is the case with his Filipino National Heroes Video, condensing
-              history into a catchy, upbeat rap, and his various ‘tutorials’ to
-              Filipino traditions, like the Filipino Christmas Tutorial, or even
-              humorously jabbing at the Filipino Accent, where it recently won
-              1st sexiest accent in Asia.
+              experiences with the friars. To an extent,
+              <router-link to="/mikey-bustos">
+                <span class="author-color">Mikey Bustos</span>
+              </router-link>
+              acts as a FOIL instead; rather than using his medium (Youtube
+              videos, in this case) to satirically mock the corruption or
+              destruction that has been done to the Philippines, he tries to use
+              his skits to educate or to produce humorous effect linked
+              Philippine culture, as is the case with his Filipino National
+              Heroes Video, condensing history into a catchy, upbeat rap, and
+              his various ‘tutorials’ to Filipino traditions, like the Filipino
+              Christmas Tutorial, or even humorously jabbing at the Filipino
+              Accent, where it recently won 1st sexiest accent in Asia.
             </span>
 
             <!-- Context - Reference -->

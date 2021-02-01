@@ -18,8 +18,8 @@
                 allowfullscreen
               />
             </div>
-            <h5 class="video-analysis">Analysis</h5>
-            <span id="analysis">
+            <h5 class="video-analysis" id="analysis">Analysis</h5>
+            <span>
               We can see here that
               <router-link to="/mikey-bustos">
                 <span class="author-color">Mikey Bustos</span>

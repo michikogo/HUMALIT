@@ -35,22 +35,26 @@
 </template>
 
 <script>
-import studentGirl from "../resources/studentGirl.png";
-import studentBoy from "../resources/studentBoy.png";
-
+import bergantinos from "../resources/BERGANTINOS.jpg";
+import kasala from "../resources/KASALA.jpg";
+import see from "../resources/SEE.jpg";
+import tablante from "../resources/Tablante.jpg";
+import tiu from "../resources/TIU_HUMALIT.jpg";
+import navarro from "../resources/Navarro.jpg";
+import go from "../resources/Go.jpg";
 export default {
   data() {
     return {
       rows1: [
-        { id: 1, name: "Charles Navarro", image: studentBoy },
-        { id: 2, name: "Karl Russell See", image: studentBoy },
-        { id: 3, name: "Ian Bergantinos", image: studentBoy },
-        { id: 5, name: "Alvin Tiu", image: studentBoy },
+        { id: 1, name: "Charles Navarro", image: navarro },
+        { id: 2, name: "Karl Russell See", image: see },
+        { id: 3, name: "Ian Bergantinos", image: bergantinos },
+        { id: 5, name: "Alvin Tiu", image: tiu },
       ],
       rows2: [
-        { id: 4, name: "Miguel Tablante", image: studentBoy },
-        { id: 6, name: "Benjo Kasala", image: studentBoy },
-        { id: 7, name: "Michiko Young Go", image: studentGirl },
+        { id: 4, name: "Miguel Tablante", image: tablante },
+        { id: 6, name: "Benjo Kasala", image: kasala },
+        { id: 7, name: "Michiko Young Go", image: go },
       ],
     };
   },
@@ -69,7 +73,7 @@ export default {
   place-content: center;
 }
 .members-image {
-  height: 15vh;
+  height: 25vh;
 }
 .members-text {
   text-align: center;

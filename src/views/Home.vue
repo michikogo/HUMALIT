@@ -1,21 +1,5 @@
 <template>
   <div class="window-height">
-    <b-row class="content-style">
-      <!-- Title -->
-      <h3>Overview</h3>
-
-      <!-- Context -->
-      <span>
-        How can Philippine narratives of antiquity be made relevant to
-        contemporary Philippine life, culture, and concerns? To put it in the
-        context and perspective of modern society. Although these are seen as
-        problems from the past these are still issues faced by the modern day
-        Filipino just in a different context. The problem of colonization can be
-        seen today as colonial mentality even if we are already an independent
-        nation, many of the Filipinos have been influenced to focus more on
-        western culture.
-      </span>
-    </b-row>
     <b-row class="content-style" v-for="content in contents" :key="content">
       <router-link :to="content.link">
         <!-- Title -->
@@ -43,6 +27,22 @@
         <!-- Context -->
         <span v-html="content.desc" />
       </router-link>
+    </b-row>
+    <b-row class="content-style">
+      <!-- Title -->
+      <h3>Conclusion</h3>
+
+      <!-- Context -->
+      <span>
+        How can Philippine narratives of antiquity be made relevant to
+        contemporary Philippine life, culture, and concerns? To put it in the
+        context and perspective of modern society. Although these are seen as
+        problems from the past these are still issues faced by the modern day
+        Filipino just in a different context. The problem of colonization can be
+        seen today as colonial mentality even if we are already an independent
+        nation, many of the Filipinos have been influenced to focus more on
+        western culture.
+      </span>
     </b-row>
   </div>
 </template>

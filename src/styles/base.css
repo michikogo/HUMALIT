@@ -61,3 +61,9 @@ a:hover {
 .content-pading {
   padding-left: 30px !important;
 }
+.author-color {
+  color: blue;
+}
+.author-color:hover {
+  font-style: italic;
+}

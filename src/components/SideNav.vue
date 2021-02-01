@@ -1,6 +1,6 @@
 <template>
   <b-container class="navBar-div">
-    <span class="sideNav-title">Dasalan and Tocsohan</span>
+    <span class="sideNav-title">{{ title }}</span>
     <b-row
       style="paddingTop:15px"
       v-for="content in contents"
@@ -19,6 +19,7 @@
 export default {
   name: "MainSideNav",
   props: {
+    title: String,
     contents: Object,
   },
 };

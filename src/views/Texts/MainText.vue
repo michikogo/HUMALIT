@@ -3,9 +3,9 @@
     <b-row>
       <b-col cols="3">
         <!-- passing parent to child -->
-        <SideNav :contents="contents" />
+        <SideNav title="Dasalan and Tocsohan" :contents="contents" />
       </b-col>
-      <b-col class="main-content">
+      <b-col class="content-pading">
         <b-row class="content-style">
           <!-- Title -->
           <h3>Dasalan and Tocsohan</h3>
@@ -239,8 +239,5 @@ export default {
 .main-link:hover {
   color: blue !important;
   text-decoration: underline;
-}
-.main-content {
-  padding-left: 30px !important;
 }
 </style>

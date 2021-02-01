@@ -58,3 +58,6 @@ a:hover {
 .h6-top-padding {
   padding-top: 20px;
 }
+.content-pading {
+  padding-left: 30px !important;
+}

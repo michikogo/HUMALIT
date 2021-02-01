@@ -72,7 +72,7 @@ export default {
         {
           id: 2,
           link: "/supportingtext",
-          title: "Culture: Being Forgotten (Supporting Text)",
+          title: "Supporting Texts",
           typeAsset: "N/A",
           asset: "",
           desc: `The text discusses how most Filipino’s of today’s generation have

@@ -55,4 +55,9 @@ export default {
 .sideNav-name:active {
   font-size: bold;
 }
+@media (max-width: 360px) {
+  .navBar-div {
+    display: none;
+  }
+}
 </style>

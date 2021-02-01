@@ -11,21 +11,21 @@
     </b-row>
     <!-- Row 1 -->
     <b-row class="members-image-row">
-      <b-col cols="3" v-for="row1 in rows1" :key="row1">
+      <b-col cols="6" sm="3" v-for="row1 in rows1" :key="row1">
         <b-row>
-          <b-col>
-            <b-img center :src="row1.image" class="members-image" />
+          <b-col class="members-div">
+            <b-img center fluid :src="row1.image" class="members-image" />
             <p class="members-text">{{ row1.name }}</p>
           </b-col>
         </b-row>
       </b-col>
     </b-row>
     <!-- Row 2 -->
-    <b-row class="members-image-row">
-      <b-col cols="3" v-for="row2 in rows2" :key="row2">
+    <b-row class="members-image-row ">
+      <b-col cols="6" sm="3" v-for="row2 in rows2" :key="row2">
         <b-row>
-          <b-col>
-            <b-img center :src="row2.image" class="members-image" />
+          <b-col class="members-div">
+            <b-img center fluid :src="row2.image" class="members-image" />
             <p class="members-text">{{ row2.name }}</p>
           </b-col>
         </b-row>
@@ -73,9 +73,12 @@ export default {
   place-content: center;
 }
 .members-image {
-  height: 25vh;
+  /* height: 25vh; */
 }
 .members-text {
   text-align: center;
+}
+.members-div {
+  padding: 15px !important;
 }
 </style>

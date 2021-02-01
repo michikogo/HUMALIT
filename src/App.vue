@@ -66,7 +66,7 @@ export default {
       titles: [
         { title: "Dasalan and Tocsohan", link: "/maintext" },
         {
-          title: "Culture: Being Forgotten? & The Main RRL",
+          title: "Supporting Texts",
           link: "/supportingtext",
         },
         { title: "Filipino National Heroes Rap", link: "/video1" },
@@ -119,5 +119,12 @@ export default {
 .app-text:hover {
   color: wheat;
   font-weight: bold;
+}
+
+@media (max-width: 411px) {
+  .app-title,
+  .app-text {
+    font-size: 14px;
+  }
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="window-height">
     <b-row>
-      <b-col cols="3">
+      <b-col cols="12" sm="3">
         <!-- passing parent to child -->
         <SideNav title="Dasalan and Tocsohan" :contents="contents" />
       </b-col>
@@ -251,5 +251,13 @@ export default {
 .main-link:hover {
   color: blue !important;
   text-decoration: underline;
+}
+@media (max-width: 576px) {
+  .content-pading {
+    padding-left: 0px !important;
+  }
+  .navBar-div {
+    margin-bottom: 20px !important;
+  }
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div class="window-height">
     <b-row>
-      <b-col cols="3">
+      <b-col cols="12" sm="3">
         <SideNav title="Filipino Christmas" :contents="contents" />
       </b-col>
       <b-col class="content-pading">
@@ -62,3 +62,14 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+@media (max-width: 576px) {
+  .content-pading {
+    padding-left: 0px !important;
+  }
+  .navBar-div {
+    margin-bottom: 20px !important;
+  }
+}
+</style>

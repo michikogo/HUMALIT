@@ -1,11 +1,12 @@
 <template>
   <b-container class="window-height content-style">
-    <h3 class="members-text">Marcelo H. Del Pilar</h3>
+    <h3 class="members-text">Mikey Bustos</h3>
     <b-row class="members-decription">
-      <b-col cols="3">
+      <b-col cols="12" sm="3">
         <b-img
           :src="mikeyBustos"
           fluid
+          center
           alt="Responsive image"
           class="home-image"
         ></b-img>

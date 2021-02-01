@@ -34,9 +34,11 @@
     </b-container>
     <!-- Footer -->
     <div class="app-footer">
+      <span v-for="(title, index) in titles" :key="index"> {{ title }} • </span>
       <div class="app-title">HUMALIT GROUP 3 - YY1</div>
-      <span class="app-title">
-        Bergantinos, Go, Kasala, Navarro, See, Tablante, Tiu
+      <span v-for="(member, index) in members" :key="index" class="app-title">
+        {{ member }}
+        <span v-if="index !== members.length - 1"> | </span>
       </span>
     </div>
   </div>
@@ -48,6 +50,26 @@ export default {
   name: "App",
   components: {
     SideNav,
+  },
+  data() {
+    return {
+      titles: [
+        "Dasalan and Tocsohan",
+        "Culture: Being Forgotten? & The Main RRL",
+        "Filipino National Heroes Rap",
+        "Proud of My Accent",
+        "Filipino Christmas",
+      ],
+      members: [
+        "Bergantinos",
+        "Go",
+        "Kasala",
+        "Navarro",
+        "See",
+        "Tablante",
+        "Tiu",
+      ],
+    };
   },
 };
 </script>
@@ -77,26 +99,5 @@ export default {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap; */
-}
-
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
 }
 </style>

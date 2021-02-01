@@ -8,6 +8,13 @@
   padding: 0px !important;
 }
 
+hr {
+  margin-top: 1rem;
+  margin-bottom: -1rem !important;
+  border: 0;
+  border-top: 1px solid #b8b08d;
+}
+
 .row {
   margin-right: 0px !important;
   margin-left: 0px !important;

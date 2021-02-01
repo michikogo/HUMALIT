@@ -2,12 +2,14 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 
 import Home from "../views/Home.vue";
-import MainText from "../views/MainText.vue";
-import SupportingText from "../views/SupportingText.vue";
-import Video1 from "../views/Video1.vue";
-import Video2 from "../views/Video2.vue";
-import Video3 from "../views/Video3.vue";
+import MainText from "../views/Texts/MainText.vue";
+import SupportingText from "../views/Texts/SupportingText.vue";
+import Video1 from "../views/Videos/Video1.vue";
+import Video2 from "../views/Videos/Video2.vue";
+import Video3 from "../views/Videos/Video3.vue";
 import Members from "../views/Members.vue";
+import Mikey from "../views/Authors/Mikey.vue";
+import Marcelo from "../views/Authors/Marcelo.vue";
 Vue.use(VueRouter);
 
 const routes = [
@@ -46,6 +48,12 @@ const routes = [
     name: "Members",
     component: Members,
   },
+  {
+    path: "/marcelo-del-pilar",
+    name: "Marcelo",
+    component: Marcelo,
+  },
+  { path: "/mikey-bustos", name: "Mikey", component: Mikey },
 ];
 
 const router = new VueRouter({

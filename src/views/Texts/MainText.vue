@@ -75,7 +75,9 @@
       Katakutan mo Ang Fraile At Pag Manuhan mo..
     </span>
 
+    <hr />
     <!-- Context - Introduction -->
+    <h5 class="video-analysis">Analysis</h5>
     <h5 class="video-analysis">Introduction to the Text</h5>
     <span>
       Satire is very common, especially in the Philippines where it is used as a
@@ -187,7 +189,7 @@
 </template>
 
 <script>
-import text1Image from "../assets/text1.jpg";
+import text1Image from "../../resources/text1.jpg";
 export default {
   name: "MainText",
   components: {},

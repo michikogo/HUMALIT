@@ -2,7 +2,7 @@ import "@babel/polyfill";
 import "mutationobserver-shim";
 import Vue from "vue";
 import "./plugins/bootstrap-vue";
-import "./assets/base.css";
+import "./styles/base.css";
 import App from "./App.vue";
 import router from "./router";
 

@@ -35,8 +35,8 @@
 </template>
 
 <script>
-import studentGirl from "../assets/studentGirl.png";
-import studentBoy from "../assets/studentBoy.png";
+import studentGirl from "../resources/studentGirl.png";
+import studentBoy from "../resources/studentBoy.png";
 
 export default {
   data() {

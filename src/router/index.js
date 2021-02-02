@@ -89,7 +89,7 @@ const routes = [
 
 const router = new VueRouter({
   scrollBehavior(to) {
-    // go to the section
+    // go to the id section
     if (to.hash) {
       return {
         selector: to.hash,
@@ -102,6 +102,7 @@ const router = new VueRouter({
   routes,
 });
 
+// Tab Title
 router.beforeEach((to, from, next) => {
   document.title = "Final Output | " + to.meta.title;
   next();

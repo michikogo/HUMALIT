@@ -2,7 +2,7 @@
   <b-container class="window-height content-style">
     <h3 class="members-text">Marcelo H. Del Pilar</h3>
     <b-row class="members-decription">
-      <b-col cols="12" sm="3">
+      <b-col cols="12" sm="5" md="3">
         <b-img
           :src="marceloImage"
           fluid
@@ -40,18 +40,29 @@
       <b-col>
         <!-- Context - Reference -->
         <h5 class="video-analysis" id="reference">References</h5>
-        <b-link
-          href="https://kahimyang.com/kauswagan/articles/554/today-in-philippine-history-august-30-1850-marcelo-h-del-pilar-was-born-in-cupang-bulacan-bulacan"
-          class="main-link"
-          >Today in Philippine History, August 30, 1850, Marcelo H. Del Pilar
-          was born in Cupang, Bulacan, Bulacan</b-link
-        >
-        <br />
-        <b-link
-          href="https://www.bayaniart.com/marcelo-hilario-del-pilar-biography/"
-          class="main-link"
-          >MARCELO DEL PILAR</b-link
-        >
+        <b-row>
+          <b-col class="marcelo-reference" cols="1">•</b-col>
+          <b-col>
+            <b-link
+              href="https://kahimyang.com/kauswagan/articles/554/today-in-philippine-history-august-30-1850-marcelo-h-del-pilar-was-born-in-cupang-bulacan-bulacan"
+              class="main-link"
+            >
+              Today in Philippine History, August 30, 1850, Marcelo H. Del Pilar
+              was born in Cupang, Bulacan, Bulacan</b-link
+            >
+          </b-col>
+        </b-row>
+        <b-row>
+          <br />
+          <b-col class="marcelo-reference " cols="1">•</b-col>
+          <b-col>
+            <b-link
+              href="https://www.bayaniart.com/marcelo-hilario-del-pilar-biography/"
+              class="main-link"
+              >MARCELO DEL PILAR</b-link
+            >
+          </b-col>
+        </b-row>
       </b-col>
     </b-row>
   </b-container>
@@ -100,5 +111,9 @@ export default {
 .main-link:hover {
   color: blue !important;
   text-decoration: underline;
+}
+.marcelo-reference {
+  padding-right: 10px !important;
+  text-align: end;
 }
 </style>

@@ -2,7 +2,7 @@
   <b-container class="window-height content-style">
     <h3 class="members-text">Mikey Bustos</h3>
     <b-row class="members-decription">
-      <b-col cols="12" sm="3">
+      <b-col cols="12" sm="5" md="3">
         <b-img
           :src="mikeyBustos"
           fluid
@@ -31,17 +31,30 @@
       <b-col>
         <!-- Context - Reference -->
         <h5 class="video-analysis" id="reference">References</h5>
-        <b-link
-          href="https://www.gmanetwork.com/news/news/pinoyabroad/244273/no-joke-fil-canadian-comic-mikey-bustos-has-a-serious-side/story/"
-          class="main-link"
-          >No joke, Fil-Canadian comic Mikey Bustos has a serious side</b-link
-        >
+        <b-row>
+          <b-col class="mikey-reference" cols="1">
+            <span>•</span>
+          </b-col>
+          <b-col>
+            <b-link
+              href="https://www.gmanetwork.com/news/news/pinoyabroad/244273/no-joke-fil-canadian-comic-mikey-bustos-has-a-serious-side/story/"
+              class="main-link"
+              >No joke, Fil-Canadian comic Mikey Bustos has a serious
+              side</b-link
+            >
+          </b-col>
+        </b-row>
         <br />
-        <b-link
-          href="https://lifestyle.inquirer.net/21841/a-funny-guy-with-a-serious-side/"
-          class="main-link"
-          >A funny guy with a serious side</b-link
-        >
+        <b-row>
+          <b-col class="mikey-reference" cols="1">•</b-col>
+          <b-col>
+            <b-link
+              href="https://lifestyle.inquirer.net/21841/a-funny-guy-with-a-serious-side/"
+              class="main-link"
+              >A funny guy with a serious side</b-link
+            >
+          </b-col>
+        </b-row>
       </b-col>
     </b-row>
   </b-container>
@@ -90,5 +103,10 @@ export default {
 .main-link:hover {
   color: blue !important;
   text-decoration: underline;
+}
+
+.mikey-reference {
+  padding-right: 10px !important;
+  text-align: end;
 }
 </style>

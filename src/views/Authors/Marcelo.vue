@@ -53,7 +53,6 @@
           </b-col>
         </b-row>
         <b-row>
-          <br />
           <b-col class="marcelo-reference " cols="1">•</b-col>
           <b-col>
             <b-link

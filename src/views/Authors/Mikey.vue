@@ -44,7 +44,6 @@
             >
           </b-col>
         </b-row>
-        <br />
         <b-row>
           <b-col class="mikey-reference" cols="1">•</b-col>
           <b-col>

@@ -206,18 +206,27 @@
 
             <!-- Context - Reference -->
             <h5 class="video-analysis" id="reference">Reference</h5>
-            <b-link
-              href="https://www.dlsu.edu.ph/wp-content/uploads/pdf/conferences/arts-congress-proceedings/2019/FP-01.pdf"
-              class="main-link"
-              >The Impressionist Act of Willie Nepomuceno: Satire as Political
-              Testimony and Crux of Collective Memory</b-link
-            >
-            <br />
-            <b-link
-              href="https://handiog.wordpress.com/2014/10/11/dasalan-at-tocsohan-ni-marcelo-h-del-pilar/"
-              class="main-link"
-              >“Dasalan at Tocsohan” ni Marcelo H. Del Pilar</b-link
-            >
+            <b-row>
+              <b-col class="main-reference " cols="1">•</b-col>
+              <b-col>
+                <b-link
+                  href="https://www.dlsu.edu.ph/wp-content/uploads/pdf/conferences/arts-congress-proceedings/2019/FP-01.pdf"
+                  class="main-link"
+                  >The Impressionist Act of Willie Nepomuceno: Satire as
+                  Political Testimony and Crux of Collective Memory</b-link
+                >
+              </b-col>
+            </b-row>
+            <b-row>
+              <b-col class="main-reference " cols="1">•</b-col>
+              <b-col>
+                <b-link
+                  href="https://handiog.wordpress.com/2014/10/11/dasalan-at-tocsohan-ni-marcelo-h-del-pilar/"
+                  class="main-link"
+                  >“Dasalan at Tocsohan” ni Marcelo H. Del Pilar</b-link
+                >
+              </b-col>
+            </b-row>
           </b-col>
         </b-row>
       </b-col>
@@ -251,6 +260,10 @@ export default {
 .main-link:hover {
   color: blue !important;
   text-decoration: underline;
+}
+.main-reference {
+  padding-right: 10px !important;
+  text-align: end;
 }
 @media (max-width: 576px) {
   .content-pading {

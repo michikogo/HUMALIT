@@ -42,6 +42,13 @@
         seen today as colonial mentality even if we are already an independent
         nation, many of the Filipinos have been influenced to focus more on
         western culture.
+        <br />
+        <br />
+        However, we can see through the videos of Mikey Bustos that there are
+        Filipinos living abroad or who aren’t pure Filipinos who are proud of
+        the Filipino culture and promote it to the whole world. We can observe
+        that Filipinos living in the Philippines are the ones who are suffering
+        from colonial mentality.
       </span>
     </b-row>
   </div>

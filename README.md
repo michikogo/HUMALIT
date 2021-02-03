@@ -16,22 +16,22 @@ https://michikogo.github.io/HUMALIT-FinalOutput/#/
    npm init
    ```
 3.  Run the code
-```bash
-vue ui
-```
+   ```bash
+   vue ui
+   ```
 4. In vue UI to to `Task` then `Serve` then `Run Output` once it is executed click `Open App`
 
 ### Vue Installation
 1. Download vue in cmd 
-```bash
-npm install -g @vue/cli
-```
+   ```bash
+   npm install -g @vue/cli
+   ```
 
 ### Vue Deployment 
 1. Deploying the project type the following in cmd:
-```bash
-npm run build
-```
+   ```bash
+   npm run build
+   ```
 2. Create a new branch usually named gh-pages and place the dist folder executed from the npm run build in the branch gh-pages 
 
 ## Branches

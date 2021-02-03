@@ -1,5 +1,7 @@
 # HUMALIT Final Output
-Simple static website that is used as the final output for HUMALIT. The site contains articles and analysis relating to the given theme. This project was created with `vue` and `bootstrap-vue`.
+Simple static website that is used as the final output for HUMALIT. The site contains articles and analysis relating to the given theme. 
+
+This project was created with `vue` and `bootstrap-vue`.
 
 ## Working Site
 https://michikogo.github.io/HUMALIT-FinalOutput/#/
